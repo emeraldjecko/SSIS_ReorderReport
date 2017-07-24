@@ -2,23 +2,23 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>ReOrderReport</Name>
-    <LastWriteTime>2017-05-17T14:03:43.7187729Z</LastWriteTime>
+    <LastWriteTime>2017-05-26T18:52:49.0605014Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Quanity_Report.dtsx</Name>
-      <LastWriteTime>2017-05-17T13:59:55.4471947Z</LastWriteTime>
+      <LastWriteTime>2017-05-26T18:50:07.2000851Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Order_Report.dtsx</Name>
-      <LastWriteTime>2017-05-17T14:03:42.5623594Z</LastWriteTime>
+      <LastWriteTime>2017-05-26T18:52:47.4177513Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Reorder_Products.dtsx</Name>
-      <LastWriteTime>2017-05-17T13:02:51.4990005Z</LastWriteTime>
+      <LastWriteTime>2017-07-18T18:58:57.6858628Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

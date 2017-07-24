@@ -4,13 +4,13 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <ServerName>LENOVO-PC</ServerName>
+        <ServerName>WIN-TAQIIB1APDS\SQLEXPRESS</ServerName>
         <PathOnServer>/SSISDB/ReOrderReport/ReOrderReport</PathOnServer>
         <Run64BitRuntime>true</Run64BitRuntime>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>
-        <ProgressReporting>true</ProgressReporting>
+        <ProgressReporting>false</ProgressReporting>
         <ParameterConfigurationSensitiveValues>
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>

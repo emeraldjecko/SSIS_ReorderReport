@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">WIN-TAQIIB1APDS</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqMViFyHoV0WYsRaajmXXxAAAAAACAAAAAAAQZgAAAAEAACAAAADADmHbDjUguk9p8BogSQWdeeSCe69oUomsy8YsItwihAAAAAAOgAAAAAIAACAAAACxRw/K+yr9BB1f2rCYM2RF0hM/kDNeSh7BQUGsWnEecZAAAADYv2U2jxiSckTzcJNvLbiFHLm8leHC8MV8eWvLN8OYRvw9v6xZGBmBCg5WRskV93cKbPKQcOuoaO1tt/BWFsvVk34QLLmpxyGFwv0ISr31WH5JVYe5aluKe2YVfEhJL28RLQo8oG8m5ORFUqBYBdzplvRwN/06qZG6iNzIIWNWVgzMWh9VpJc4fgyZ5RgU+HtAAAAAdInCVYvFSKKyAiU/KFP+OAxbTQYAAbBMM82BGRwsb+1xiJRhjMpa+PJpaYSsG4bF0JLufwxwE2kAUCXfrxfWPg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2S4NBA38jU+Fjn1Ofi5YZQAAAAACAAAAAAAQZgAAAAEAACAAAAByXacDX1tw7CQrUq0FqKXqbjZhGzV+6LlVDFI98bAFjAAAAAAOgAAAAAIAACAAAACk6HHSImqzLD+Au/+7LaMblXBhwa6mtr3NX3ZlmnJFHZAAAABc+5lDDaq7CmLhGyyCPY/DOPKdmrK9IuDKeBzjXi9+k0U1MBhDcwVT6s7szzb7GQ1o3aPYmR4KgGdO7itqGyYBylDVVslLvRBpSd6RJlg8/5PBAWjji4sqH5q9+qj+SUUN/YfTiN2jPr3mOLXyXYbaGTuXmF9uKR8lDT7EpR1nFkpVdgw21y573U3Zo/Q9cjRAAAAA6pBjscJIrN7tuhA3kPQAVF263RYJZEiUeLrDPYGaOICOTfzmipML1NgWHmyvaz0eNM2O8ayjnZtxeCtMA3KFpw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -44,10 +44,10 @@
                 <SSIS:Property SSIS:Name="Name">Quanity_Report</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">91</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">98</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{5E08AE59-5856-4AE0-A37D-EDAC2BEEE43E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{8D4F9991-34C5-446D-AFD3-A8B1D25FB69B}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -65,7 +65,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LENOVO-PC;Initial Catalog=PeopleSource;Integrated Security=True;Application Name=SSIS-Package-{BEA8A9AC-9BD8-48C0-B512-156B6E334BE9}WIN-TAQIIB1APDS.LISTING;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=WIN-TAQIIB1APDS\SQLEXPRESS;Initial Catalog=PeopleSource;Integrated Security=True;Application Name=SSIS-Package-{BEA8A9AC-9BD8-48C0-B512-156B6E334BE9}WIN-TAQIIB1APDS.LISTING;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -124,7 +124,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">LENOVO-PC</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">WIN-TAQIIB1APDS\SQLEXPRESS</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -198,7 +198,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\emeraldjecko\NEW PROJECT\CODES\PeopleSource\DOWNLOAD\quantity_report.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Websites\Dev2\BUILD\PeopleSource_20170518\PS_20170518\PS_20170518\DOWNLOAD\quantity_report.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -289,6 +289,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -330,10 +332,10 @@
                 <SSIS:Property SSIS:Name="Name">Order_Report</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">93</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">98</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E2CC1827-7F92-4DF1-B0A8-2EDD4461A867}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{807D86BF-3D19-4DDA-AE6E-C63893535870}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -351,7 +353,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LENOVO-PC;Initial Catalog=PeopleSource;Integrated Security=True;Application Name=SSIS-Package-{E896B0F3-5A63-42DD-AF26-505C6B96160A}WIN-TAQIIB1APDS.LISTING;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=WIN-TAQIIB1APDS\SQLEXPRESS;Initial Catalog=PeopleSource;Integrated Security=True;Application Name=SSIS-Package-{E896B0F3-5A63-42DD-AF26-505C6B96160A}WIN-TAQIIB1APDS.LISTING;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -410,7 +412,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">LENOVO-PC</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">WIN-TAQIIB1APDS\SQLEXPRESS</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -484,7 +486,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\emeraldjecko\NEW PROJECT\CODES\PeopleSource\DOWNLOAD\order_report.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Websites\Dev2\BUILD\PeopleSource_20170518\PS_20170518\PS_20170518\DOWNLOAD\order_report.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -618,10 +620,10 @@
                 <SSIS:Property SSIS:Name="Name">Reorder_Products</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">84</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">104</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{F7CBD870-3BDB-4AD4-8C0A-63705B308CD8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{8F2003DE-F8E5-471C-B956-D203E127C606}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -639,7 +641,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LENOVO-PC;Initial Catalog=PeopleSource;Integrated Security=True;Application Name=SSIS-Package-{C8FCCCE4-7B8E-49CA-ABFA-D8AB36487849}WIN-TAQIIB1APDS.LISTING;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=WIN-TAQIIB1APDS\SQLEXPRESS;Initial Catalog=PeopleSource;Integrated Security=True;Application Name=SSIS-Package-{C8FCCCE4-7B8E-49CA-ABFA-D8AB36487849}WIN-TAQIIB1APDS.LISTING;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -698,7 +700,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">LENOVO-PC</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">WIN-TAQIIB1APDS\SQLEXPRESS</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -772,7 +774,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\emeraldjecko\NEW PROJECT\CODES\PeopleSource\DOWNLOAD\products.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Websites\Dev2\BUILD\PeopleSource_20170518\PS_20170518\PS_20170518\DOWNLOAD\products.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -863,6 +865,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -894,6 +898,36 @@
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LogFile.txt.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Websites\Dev2\SSIS\BETA\LogFile.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LogFile.xml.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Websites\Dev2\SSIS\BETA\LogFile.xml</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
